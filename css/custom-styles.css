@@ -1,0 +1,48 @@
+.blog-post {
+	display: block;
+	width: 100%;
+	margin-bottom: 14px !important;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+  .float-right-md-lg {
+    float: right !important;
+  }
+}
+
+/*
+.navbar {
+  background-color: #7fb199;
+  color: white !important;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: #7fb199 !important;
+  text-decoration: underline !important;
+}
+
+.navbar-toggle {
+  color: white !important;
+}
+  */
+
+.footer {
+	text-align: center;
+	background-color: #7fb199;
+	color: #fff;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	margin-top: 35px;
+}
+
+.footer p {
+	margin: 0px;
+	padding: 0px;
+}
