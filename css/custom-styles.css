@@ -11,25 +11,16 @@
   }
 }
 
-/*
-.navbar {
-  background-color: #7fb199;
-  color: white !important;
+.navbar .navbar-toggle {
+    background-color: #fff;
+    border-color: #6aa489;
 }
 
-.navbar a {
-  color: white;
-}
+.navbar
 
-.navbar a:hover {
-  background-color: #7fb199 !important;
-  text-decoration: underline !important;
+.navbar .navbar-toggle .icon-bar {
+    background-color: #7fb199;
 }
-
-.navbar-toggle {
-  color: white !important;
-}
-  */
 
 .footer {
 	text-align: center;
