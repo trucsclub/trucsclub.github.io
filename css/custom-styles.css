@@ -11,25 +11,25 @@
   }
 }
 
-/*
-.navbar {
-  background-color: #7fb199;
-  color: white !important;
+.navbar .navbar-toggle {
+    border-color: #6aa489;
 }
 
-.navbar a {
-  color: white;
+.navbar button.navbar-toggle:active {
+    background-color: #ccc;
 }
 
-.navbar a:hover {
-  background-color: #7fb199 !important;
-  text-decoration: underline !important;
+.navbar .navbar-toggle, .navbar .navbar-toggle:focus {    
+    background-color: #ddd;
 }
 
-.navbar-toggle {
-  color: white !important;
+.navbar .collapsed, .navbar .collapsed:focus {
+    background-color: #fff;
 }
-  */
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #7fb199;
+}
 
 .footer {
 	text-align: center;
