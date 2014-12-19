@@ -11,17 +11,20 @@
   }
 }
 
-.navbar .navbar-toggle, .navbar .navbar-toggle:focus {
-    background-color: #fff;
+.navbar .navbar-toggle {
     border-color: #6aa489;
 }
 
-.navbar .navbar-toggle:hover {
-    background-color: #eee;
+.navbar button.navbar-toggle:active {
+    background-color: #ccc;
 }
 
-.navbar .navbar-toggle:active {
+.navbar .navbar-toggle, .navbar .navbar-toggle:focus {    
     background-color: #ddd;
+}
+
+.navbar .collapsed, .navbar .collapsed:focus {
+    background-color: #fff;
 }
 
 .navbar .navbar-toggle .icon-bar {
