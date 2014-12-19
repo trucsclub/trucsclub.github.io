@@ -11,12 +11,18 @@
   }
 }
 
-.navbar .navbar-toggle {
+.navbar .navbar-toggle, .navbar .navbar-toggle:focus {
     background-color: #fff;
     border-color: #6aa489;
 }
 
-.navbar
+.navbar .navbar-toggle:hover {
+    background-color: #eee;
+}
+
+.navbar .navbar-toggle:active {
+    background-color: #ddd;
+}
 
 .navbar .navbar-toggle .icon-bar {
     background-color: #7fb199;
