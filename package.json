@@ -1,0 +1,29 @@
+{
+  "name": "trucsclub.github.io",
+  "version": "0.1.0",
+  "description": "Website for TRU Computer Science Club",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "connect": "^3.3.3",
+    "serve-static": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trucsclub/trucsclub.github.io"
+  },
+  "keywords": [
+    "TRU",
+    "CS"
+  ],
+  "author": "Chad Fawcett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trucsclub/trucsclub.github.io/issues"
+  },
+  "homepage": "https://github.com/trucsclub/trucsclub.github.io"
+}
