@@ -1,2 +1,5 @@
 css/bootstrap/
 .idea/
+*.swp
+node_modules/
+server.js
