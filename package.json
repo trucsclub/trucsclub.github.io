@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "Website for TRU Computer Science Club",
   "main": "server.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "connect": "^3.3.3",
     "serve-static": "^1.7.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
