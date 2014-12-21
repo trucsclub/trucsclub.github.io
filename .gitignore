@@ -1,2 +1,4 @@
 css/bootstrap/
 .idea/
+node_modules/
+server.js
