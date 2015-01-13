@@ -19,11 +19,11 @@
     background-color: #ccc;
 }
 
-.navbar .navbar-toggle, .navbar .navbar-toggle:focus {    
+.navbar .navbar-toggle, .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {    
     background-color: #ddd;
 }
 
-.navbar .collapsed, .navbar .collapsed:focus {
+.navbar .collapsed, .navbar .collapsed:hover, .navbar .collapsed:focus {
     background-color: #fff;
 }
 
