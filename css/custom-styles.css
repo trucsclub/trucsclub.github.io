@@ -46,3 +46,16 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+/*temporary styles for support lab */
+#volunteernow {
+    border-color: white;
+    background-color: #7fb199;
+    margin: 5px
+}
+
+#volunteeralert {
+    background-color: transparent;
+    border-color: #7fb199;
+    color: black
+}
