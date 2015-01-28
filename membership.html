@@ -53,6 +53,7 @@
           <p><em>Membership is easy!</em></p>
           <p>You can become a member of the Computer Science Club by signing up for our mailing list. Our mailing list keeps track of every member and provides them with up-to-date information about the club.</p>
           <p>Simply register in the panel on the left hand side to be registered for the Computer Science Club membership mailing list. The emails will consist of event notifications and information about the department/club.</p>
+          <p>Be sure to follow us on <a href="https://www.facebook.com/pages/TRUSU-Computer-Science-Club/343428029131317?fref=ts">Facebook</a> and <a href="https://twitter.com/trucsclub">Twitter</a> for the latest club updates!</p>
         </div>
 			</div>
 			
@@ -100,11 +101,13 @@
         <!--End mc_embed_signup-->
 
         <!-- Twitter feed -->
-        <aside id="twitterwidget" class="twitter_widget">
-        <a class="twitter-timeline" href="https://twitter.com/TRUCSClub" data-widget-id="546200035717681152" data-chrome="nofooter">Tweets from @TRUCSClub</a>
-          <script>
-                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-          </script>
+        <aside id="reallysimpletwitterwidget-2" class="widget widget_reallysimpletwitterwidget"><h3 class="widget-title">Stay Connected!</h3>
+            <div class="socialbuttons col-center">  
+                <!-- Facebook Button -->
+                <div class="fb-follow" data-href="https://www.facebook.com/pages/TRUSU-Computer-Science-Club/343428029131317?fref=ts" data-colorscheme="light" data-layout="button" data-show-faces="true"></div>
+                <!-- Twitter Button -->
+                <a class="twitter-follow-button" href="https://twitter.com/trucsclub" data-show-count="false" data-lang="en">Follow @trucsclub</a>  
+            </div>
         </aside>
 			</div><!-- /Sidebar -->
 		</div>
@@ -117,5 +120,16 @@
     <!-- Placed at the end of the document so the pages load faster --> 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 	
     <script src="js/bootstrap.min.js"></script>
+    <!-- JS for Facebook button -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=281568475353039&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+      <!-- JS for Twitter Button -->
+      <script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
   </body>
 </html>
