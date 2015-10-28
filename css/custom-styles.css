@@ -60,6 +60,12 @@
     color: black
 }
 
+#schedule-img {
+    margin-bottom: 10px;
+    border-radius: 4px
+    border: 1px solid #7fb199;
+}
+
 /* styles to align social media buttons */
 .fb-follow {
     float: left;
