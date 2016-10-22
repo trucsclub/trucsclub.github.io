@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin-bottom: 75px; /* set to height of footer plus a little bit so stuff doesn't butt up right against it. */
+    margin-bottom: 75px; /* set to height of footer plus a little bit so stuff doesn't butt up right against it. */
 }
 
 .blog-post {
