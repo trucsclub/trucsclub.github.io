@@ -8,9 +8,9 @@ body {
 }
 
 .blog-post {
-	display: block;
-	width: 100%;
-	margin-bottom: 14px !important;
+    display: block;
+    width: 100%;
+    margin-bottom: 14px !important;
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -41,13 +41,13 @@ body {
 }
 
 .footer {
-	text-align: center;
-	background-color: #7fb199;
-	color: #fff;
-	font-size: 14px;
-	padding-top: 20px;
-	padding-bottom: 20px;	
-	margin-top: 35px;    
+    text-align: center;
+    background-color: #7fb199;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;	
+    margin-top: 35px;    
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -55,8 +55,8 @@ body {
 }
 
 .footer p {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*temporary styles for support lab */
