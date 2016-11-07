@@ -95,3 +95,25 @@ body {
 .col-center {
     margin: 0 auto
 }
+
+.event {
+    display: block;
+    padding-left: 30px;
+    margin: 10px;
+    border-left: 3px solid #ddd;
+    color: inherit;
+}
+
+a.event {
+    transition: border-left 0.3s ease
+}
+
+a.event:hover {
+    color: inherit;
+    text-decoration: none;
+    border-left: 3px solid #6aa489;
+}
+
+.event h5 {
+    font-style: italic;
+}
