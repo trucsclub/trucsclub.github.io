@@ -1,7 +1,16 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 75px; /* set to height of footer plus a little bit so stuff doesn't butt up right against it. */
+}
+
 .blog-post {
-	display: block;
-	width: 100%;
-	margin-bottom: 14px !important;
+    display: block;
+    width: 100%;
+    margin-bottom: 14px !important;
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -32,19 +41,22 @@
 }
 
 .footer {
-	text-align: center;
-	background-color: #7fb199;
-	color: #fff;
-	font-size: 14px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	
-	margin-top: 35px;
+    text-align: center;
+    background-color: #7fb199;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;	
+    margin-top: 35px;    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
 }
 
 .footer p {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*temporary styles for support lab */
@@ -82,4 +94,26 @@
 }
 .col-center {
     margin: 0 auto
+}
+
+.event {
+    display: block;
+    padding-left: 30px;
+    margin: 10px;
+    border-left: 3px solid #ddd;
+    color: inherit;
+}
+
+a.event {
+    transition: border-left 0.3s ease
+}
+
+a.event:hover {
+    color: inherit;
+    text-decoration: none;
+    border-left: 3px solid #6aa489;
+}
+
+.event h5 {
+    font-style: italic;
 }
