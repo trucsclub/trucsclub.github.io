@@ -108,7 +108,7 @@ a.event {
     transition: border-left 0.3s ease
 }
 
-a.event:hover {
+a.event:hover, a.event:active {
     color: inherit;
     text-decoration: none;
     border-left: 3px solid #6aa489;
