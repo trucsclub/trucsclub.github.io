@@ -79,7 +79,7 @@ body {
 }
 
 /* styles to align social media buttons */
-.fb-follow {
+/*.fb-follow {
     float: left;
     margin-right: 10px
 }
@@ -91,7 +91,7 @@ body {
 
 .socialbuttons {
     width: 60%
-}
+}*/
 .col-center {
     margin: 0 auto
 }
@@ -116,4 +116,8 @@ a.event:hover, a.event:active {
 
 .event h5 {
     font-style: italic;
+}
+
+.socialbuttons a img{
+    max-width: 42px;
 }
