@@ -78,24 +78,6 @@ body {
     border: 1px solid #7fb199;
 }
 
-/* styles to align social media buttons */
-/*.fb-follow {
-    float: left;
-    margin-right: 10px
-}
-
-.twitter-follow-button {
-    float: left;
-    margin-right: 10px
-}
-
-.socialbuttons {
-    width: 60%
-}*/
-.col-center {
-    margin: 0 auto
-}
-
 .event {
     display: block;
     padding-left: 30px;
