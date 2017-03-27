@@ -103,3 +103,9 @@ a.event:hover, a.event:active {
 .socialbuttons a img{
     max-width: 42px;
 }
+
+@media (max-width: 768px) {
+  .socialbuttons{
+      text-align:center;
+  }
+}
