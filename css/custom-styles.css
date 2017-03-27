@@ -100,6 +100,7 @@ a.event:hover, a.event:active {
     font-style: italic;
 }
 
+/*Social buttons*/
 .socialbuttons a img{
     max-width: 42px;
 }
