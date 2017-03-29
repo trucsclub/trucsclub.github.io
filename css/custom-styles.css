@@ -77,25 +77,6 @@ body {
     border-radius: 4px;
     border: 1px solid #7fb199;
 }
-
-/* styles to align social media buttons */
-/*.fb-follow {
-    float: left;
-    margin-right: 10px
-}
-
-.twitter-follow-button {
-    float: left;
-    margin-right: 10px
-}
-
-.socialbuttons {
-    width: 60%
-}*/
-.col-center {
-    margin: 0 auto
-}
-
 .event {
     display: block;
     padding-left: 30px;
@@ -118,6 +99,13 @@ a.event:hover, a.event:active {
     font-style: italic;
 }
 
+/*Social buttons*/
 .socialbuttons a img{
     max-width: 42px;
+}
+
+@media (max-width: 768px) {
+  .socialbuttons{
+      text-align:center;
+  }
 }
