@@ -109,3 +109,8 @@ a.event:hover, a.event:active {
       text-align:center;
   }
 }
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+}
