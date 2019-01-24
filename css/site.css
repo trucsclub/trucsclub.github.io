@@ -174,3 +174,7 @@ a.event:hover, a.event:active {
          background-color:#6aa489;
     }
 }
+
+.main-page-infographic {
+    max-width: 520px;
+}
