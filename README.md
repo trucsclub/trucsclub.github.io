@@ -11,5 +11,8 @@ After you get Jekyll, open a terminal/command prompt inside the directory you cl
 ## Tooling
 [Visual Studio Code](https://code.visualstudio.com) is a great editor to use, but you can use any editor you like, as long as it doesn't mess up the page encoding (especially on Windows). Jekyll doesn't like that.
 
+## Scripts and Libraries
+Bootstrap 3 and Ekko Lightbox are all that are used.
+
 ## License
 What license?

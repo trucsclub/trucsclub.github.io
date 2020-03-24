@@ -178,3 +178,12 @@ a.event:hover, a.event:active {
 .main-page-infographic {
     max-width: 520px;
 }
+
+.discord-tut-screenshot {
+    max-width: 100%;
+}
+
+#discord-howtojoin p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

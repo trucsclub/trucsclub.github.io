@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>{{ page.title }} - TRU Computer Science Club</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/site.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/ekko-lightbox.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -34,30 +35,33 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">TRU Computer Science Club</a>
+                <a class="navbar-brand" href="/index.html">TRU Computer Science Club</a>
             </div>
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
                     <li {% if page.active == "home" %} class="active" {% endif %}>
-                        <a href="index.html">Home</a>
+                        <a href="/index.html">Home</a>
                     </li>
                     <li {% if page.active == "about" %} class="active" {% endif %}>
-                        <a href="about.html">About</a>
+                        <a href="/about.html">About</a>
                     </li>
                     <li {% if page.active == "membership" %} class="active" {% endif %}>
-                        <a href="membership.html">Membership</a>
+                        <a href="/membership.html">Membership</a>
                     </li>
                     <li {% if page.active == "elections" %} class="active" {% endif %}>
-                        <a href="elections.html">Elections</a>
+                        <a href="/elections.html">Elections</a>
                     </li>
                     <li {% if page.active == "events" %} class="active" {% endif %}>
-                        <a href="events.html">Events</a>
+                        <a href="/events.html">Events</a>
+                    </li>
+                    <li {% if page.active == "chatroom" %} class="active" {% endif %}>
+                        <a href="/discord/index.html">Chatroom</a>
                     </li>
                     <li {% if page.active == "support" %} class="active" {% endif %}>
-                        <a href="support.html">Support Lab</a>
+                        <a href="/support.html">Support Lab</a>
                     </li>
                     <li {% if page.active == "faq" %} class="active" {% endif %}>
-                        <a href="faq.html">Student FAQ</a>
+                        <a href="/faq.html">Student FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -73,7 +77,7 @@
             <div class="col-sm-4">
                 <aside id="text-2" class="widget widget_text">
                     <div class="textwidget">
-                        <img src="img/logo.png" style="width:75%; margin:auto; display:block;">
+                        <img src="/img/logo.png" style="width:75%; margin:auto; display:block;">
                     </div>
                 </aside>
 
@@ -118,11 +122,11 @@
                 <aside id="reallysimpletwitterwidget-2" class="widget widget_reallysimpletwitterwidget">
                     <h3 class="widget-title">Stay Connected!</h3>
                     <div class="socialbuttons">
-                        <a href="https://www.facebook.com/pages/TRUSU-Computer-Science-Club/343428029131317" alt="Facebook"><img src="img/Facebook.png" /></a>
-                        <a href="https://twitter.com/trucsclub" alt="Twitter"><img src="img/Twitter.png" /></a>
-                        <a href="https://www.instagram.com/trusucsclub/" alt="Instagram"><img src="img/Instagram.png" /></a>
-                        <a href="https://snapchat.com/add/trucsclub" alt="Snapchat"><img src="img/Snapchat.png" /></a>
-                        <a href="https://discord.gg/WcTbKch" alt="Discord"><img src="img/Discord.png" /></a>
+                        <a href="https://www.facebook.com/pages/TRUSU-Computer-Science-Club/343428029131317" alt="Facebook"><img src="/img/Facebook.png" /></a>
+                        <a href="https://twitter.com/trucsclub" alt="Twitter"><img src="/img/Twitter.png" /></a>
+                        <a href="https://www.instagram.com/trusucsclub/" alt="Instagram"><img src="/img/Instagram.png" /></a>
+                        <a href="https://snapchat.com/add/trucsclub" alt="Snapchat"><img src="/img/Snapchat.png" /></a>
+                        <a href="https://discord.gg/WcTbKch" alt="Discord"><img src="/img/Discord.png" /></a>
                     </div>
                 </aside>
             </div>
@@ -132,7 +136,15 @@
     <footer class="footer">Copyright &copy; 2018 TRU Computer Science Club</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/ekko-lightbox.js"></script>
+
+    <script type="text/javascript">
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+    </script>
 </body>
 
 </html>
