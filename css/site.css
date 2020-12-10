@@ -60,7 +60,7 @@ body {
 }
 
 /*temporary styles for support lab */
-#volunteernow {
+.btn-primary {
     border-color: white;
     background-color: #7fb199;
     margin: 5px
