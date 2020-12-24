@@ -59,24 +59,12 @@ body {
     padding: 0px;
 }
 
-/*temporary styles for support lab */
-#volunteernow {
+.btn-primary {
     border-color: white;
     background-color: #7fb199;
     margin: 5px
 }
 
-#volunteeralert {
-    background-color: transparent;
-    border-color: #7fb199;
-    color: black
-}
-
-#schedule-img {
-    margin-bottom: 10px;
-    border-radius: 4px;
-    border: 1px solid #7fb199;
-}
 .event {
     display: block;
     padding-left: 30px;
