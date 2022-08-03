@@ -21,3 +21,5 @@ gem "jekyll"
 group :jekyll_plugins do
   gem "jekyll-feed"
 end
+# updating (hopefully) tzinfo gem
+gem "tzinfo", ">= 1.2.10"
