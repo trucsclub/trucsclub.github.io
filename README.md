@@ -1,11 +1,13 @@
 # TRU Compsci Club
-Hello everyone Please read the notes below for more context. We wanted to keep the website as simple as posible for new members to edit as easy as posible. If you have any questions check the board meeting times or you can always ask on the board chat on discord.
+Hello everyone!
 
-For the website we used a CSS "framework" called taildwind wich just makes our lives easier when it comes to CSS. For instructions on how to download and install you ccan check below 😃.
+Please read the notes below for more context. We wanted to keep the website as simple as possible for new members to edit as easily as possible. If you have any questions check the board meeting times or you can always ask on the board chat on Discord.
+
+For the website, we used a CSS "framework" called TailwindCSS which just makes our lives easier when it comes to CSS. For instructions on how to download and install you can check below 😃.
 
 # Editing the dates for upcoming events and board meetings
 
-If you want to edit the dates for the document, you can do it directly on this github and upload the changes. 
+If you want to edit the dates for the document, you can do it directly on this GitHub and upload the changes. 
 
 If you want to go above and beyond you can edit the code by:
 
