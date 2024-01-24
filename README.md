@@ -17,7 +17,7 @@ If you want to go above and beyond you can edit the code by:
           git commit -m "comments on your changes"
           git commit
 
-After cloning and pushing the changes, create a pull request to merge your changes.
+# After cloning and pushing the changes, create a pull request to merge your changes.
 ------------------------------------------------------------------------------------
 
 Download Node.js.
