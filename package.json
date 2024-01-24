@@ -1,0 +1,23 @@
+{
+  "name": "trusucompsci",
+  "version": "1.0.0",
+  "description": "Hello! This is Fernando Ferrufino my discord is ferru if you have any questions. Test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferru9/trusucompsci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ferru9/trusucompsci/issues"
+  },
+  "homepage": "https://github.com/Ferru9/trusucompsci#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

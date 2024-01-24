@@ -1,36 +1,206 @@
----
-layout: page
-title: Home
-active: home
----
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>
-    TRUSU Computing Science Club
-</h1>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="TRU CS Club Website">
+     <meta name="keywords" content="TRU, Computer Science, CS Club, CS, Kamloops, Thompson Rivers University">
+     <title>TRU CS Club</title>
+     <link rel="stylesheet" href="css/main.css">
+</head>
 
-<p>
-    Welcome to the TRU Student Union Computing Science Club, the student club for undergratuates at Thompson Rivers University. We provide a social space, as well as academic support where everyone is welcome, not just computing science students. We also run events, such as our semesterly LAN party, and represent your interests to the Computing Science faculty.
-</p>
+<body class="font-body m-0 p-0 bg-background">
 
-<h2>
-    How do I join?
-</h2>
+     <!-- Navbar -->
+     <nav class="bg-background relative container mx-auto p-5">
 
-<p>
-    Joining the TRUSU Computing Science Club is easy! To become a member, all you have to do is sign up for our mailing list and join our Discord channel. That's it!
-</p>
+          <!-- Flex Container -->
+          <div class="flex items-center lg:justify-evenly justify-end">
 
-<p>
-    We offer a support lab in our exclusively Discord channel! If you're not <a href="/discord/index.html">in there already</a>, you should be!
-</p>
+               <!-- Logo -->
+               <div class="w-32 hidden">
+                    <a href="#">
+                         <img src="assets/logo.svg" alt="logo">
+                    </a>
+               </div>
 
-<p>
-    You can find information on how to join our Discord <a href="/discord/index.html">here</a> or by clicking on the "Discord" tab.
-</p>
+               <!-- Menu Items -->
+               <div class="md:text-text text-2xl hidden lg:flex space-x-16 py-1 px-6 ali items-center">
+                    <a href="#" class=""><img src="assets/logo.svg" alt="logo"></a>
 
-<p>
-    We look forward to spending the rest of the semester with you!
-</p>
+                    <a href="#" class="px-8 py-2 hover:text-accent">Home</a>
+                    <a href="#" class="px-8 py-2 hover:text-accent">About</a>
+                    <a href="#" class="px-8 py-2 hover:text-accent">Events</a>
+                    <a href="#" class="px-8 py-2 hover:text-accent">Resources</a>
+               </div>
 
-<h1>Twitter</h1>
-<a class="twitter-timeline" href="https://twitter.com/TRUCSClub?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by @trucsclub</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+               <!-- Hamburger Icon -->
+               <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+               </button>
+          </div>
+
+          <!-- Mobile Menu -->
+          <div class="lg:hidden">
+               <div id="menu"
+                    class="absolute flex-col items-center hidden self-end py-8 space-y-6 font-bold bg-white-glass sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+
+
+                    <a href="#hero-section" class="hover:text-accent">Get Involved</a>
+                    <a href="#events-section" class="hover:text-accent">Events</a>
+                    <a href="#" class="hover:text-accent">Resources (Comming Soon!)</a>
+               </div>
+
+          </div>
+
+     </nav>
+
+     <!-- Hero Section -->
+     <section id="hero-section" class="area flex flex-col items-center gap-8">
+
+          <!-- Logo -->
+          <a href="#">
+               <img src="assets/logo.svg" alt="logo" class="w-48">
+          </a>
+
+          <!-- Title -->
+          <div>
+               <h1 class="text-text text-center font-bold lg:text-4xl text-2xl">Thompson Rivers University's<br>Computer
+                    Science Club</h1>
+          </div>
+
+          <!-- Background Circles Animation -->
+          <ul class="circles">
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+          </ul>
+          <!-- Socials -->
+          <div class="flex gap-12">
+               <a href="https://discord.gg/UEGuccvBRy" target="_blank">
+                    <!-- https://icons.getbootstrap.com/icons/discord/ -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 hover:fill-secondary" fill="#b25fb9"
+                         viewBox="0 0 16 16">
+                         <path
+                              d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+                    </svg>
+               </a>
+               <a href="https://www.instagram.com/trucsclub/" target="_blank">
+                    <!-- https://icons.getbootstrap.com/icons/instagram/ -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 hover:fill-secondary" fill="#b25fb9"
+                         viewBox="0 0 16 16">
+                         <path
+                              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+               </a>
+               <a href="https://www.facebook.com/profile.php?id=61551258991234&ref=xav_ig_profile_web" target="_blank">
+                    <!-- https://icons.getbootstrap.com/icons/facebook/ -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#b25fb9" class="w-10 h-10 hover:fill-secondary"
+                         viewBox="0 0 16 16">
+                         <path
+                              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+               </a>
+          </div>
+
+          <!-- Subscribe Button -->
+          <a href="#" class="mb-16">
+               <button class="text-text py-2 px-10 rounded-full bg-accent hover:bg-secondary">Subscribe!</button>
+          </a>
+     </section>
+
+     <!-- Events -->
+     <section id="events-section" class="bg-section flex flex-col gap-12 items-center py-10 px-5">
+          <!-- Title -->
+          <h2 class="text-text font-extrabold text-4xl">Upcoming Events</h2>
+
+          <!-- Event Cards -->
+          <div class="event-card event-card-blur">
+               <h3 class="text-black font-bold text-lg">Server? Hardly know her!</h3>
+               <h4 class="text-black text-md">February 8th, 2024<br>12:00 AM PDT</h4>
+               <p class="text-gray-700">Discover the art of server setup at our tech-centric event, where experts and
+                    enthusiasts converge to explore the latest technologies and best practices.</p>
+
+               <a href="https://simpli.events/e/server" target="_blank">
+                    <span class="font-bold hover:text-accent">view details</span>
+               </a>
+          </div>
+
+          <div class="event-card event-card-blur">
+               <h3 class="text-black font-bold text-lg">Winter LAN Party</h3>
+               <h4 class="text-black text-md">March 9th, 2024<br>4:00 PM PDT</h4>
+               <p class=" text-gray-700">Join us in our LAN party! Bring your setup and play some games!</p>
+
+               <a href="https://simpli.events/e/winterLAN" target="_blank">
+                    <span class="font-bold hover:text-accent">view details</span>
+               </a>
+          </div>
+
+          <div class="event-card event-card-blur">
+               <h3 class="text-black font-bold text-lg">Can You Code?</h3>
+               <h4 class="text-black text-md">April 5th, 2024<br>8:00 PM PDT</h4>
+               <p class="text-gray-700">Compete against your friends to find out who can
+                    code!</p>
+
+               <a href="https://simpli.events/e/wintercyc" target="_blank">
+                    <span class="font-bold hover:text-accent">view details</span>
+               </a>
+          </div>
+
+     </section>
+
+     <!-- Hamburger Script -->
+     <script src="assets/hamburger.js"></script>
+
+</body>
+
+<!-- Footer -->
+<footer class="bg-footer-to-section flex justify-between px-5 pb-2 pt-5 items-end">
+     <!-- Email -->
+     <a href="mailto:trucsclub@gmail.com" class="text-text text-xs hover:text-accent">
+          trucsclub@gmail.com
+     </a>
+
+     <!-- Copyright -->
+     <p class="text-gray-700 text-xs">&copy; by trucsclub</p>
+
+     <!-- Socials -->
+     <div class="flex gap-2">
+          <a href="https://discord.gg/UEGuccvBRy" target="_blank">
+               <!-- https://icons.getbootstrap.com/icons/discord/ -->
+               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 hover:fill-secondary" fill="#b25fb9"
+                    viewBox="0 0 16 16">
+                    <path
+                         d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+               </svg>
+          </a>
+          <a href="https://www.instagram.com/trucsclub/" target="_blank">
+               <!-- https://icons.getbootstrap.com/icons/instagram/ -->
+               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 hover:fill-secondary" fill="#b25fb9"
+                    viewBox="0 0 16 16">
+                    <path
+                         d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+               </svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61551258991234&ref=xav_ig_profile_web" target="_blank">
+               <!-- https://icons.getbootstrap.com/icons/facebook/ -->
+               <svg xmlns="http://www.w3.org/2000/svg" fill="#b25fb9" class="w-5 h-5 hover:fill-secondary"
+                    viewBox="0 0 16 16">
+                    <path
+                         d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+               </svg>
+          </a>
+     </div>
+</footer>
+
+</html>
