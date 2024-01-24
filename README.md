@@ -1,5 +1,7 @@
 # trusucompsci
-Hello! This is Fernando Ferrufino my discord is ferru if you have any questions.
+Hello everyone Please read the notes below for more context. We wanted to keep the website as simple as posible for new members to edit as easy as posible. If you have any questions check the board meeting times or you can always ask on the board chat on discord.
+
+For the website we used a CSS "framework" called taildwind wich just makes our lives easier when it comes to CSS. For instructions on how to download and install you ccan check below 😃.
 
 ------------------------------------------------------------------------------------
 
