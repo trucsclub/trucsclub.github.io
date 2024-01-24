@@ -18,15 +18,12 @@ If you want to go above and beyond you can edit the code by:
           git commit
 
 # After cloning and pushing the changes, create a pull request to merge your changes.
-------------------------------------------------------------------------------------
 
 Download Node.js.
 To run this file go to the terminal and run the following command: 
 
      pip install -r requirements.txt
 
-
-------------------------------------------------------------------------------------
 
 After that run: 
 
