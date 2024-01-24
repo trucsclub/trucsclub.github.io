@@ -822,7 +822,7 @@ p {
 
 .event-card{
   display: flex;
-  min-width: 20rem;
+  min-width: 22rem;
   flex-direction: column;
   gap: 1.25rem;
   border-radius: 0.5rem;
