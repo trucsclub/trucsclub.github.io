@@ -5,6 +5,8 @@ Please read the notes below for more context. We wanted to keep the website as s
 
 For the website, we used a CSS "framework" called TailwindCSS which just makes our lives easier when it comes to CSS. For instructions on how to download and install you can check below 😃.
 
+---------------------------------------------------------------------------------------------------------------
+
 # Editing the dates for upcoming events and board meetings
 
 If you want to edit the dates for the document, you can do it directly on this GitHub and upload the changes. 
@@ -16,6 +18,8 @@ If you want to go above and beyond you can edit the code by:
           git add .
           git commit -m "comments on your changes"
           git commit
+
+---------------------------------------------------------------------------------------------------------------
 
 # After cloning and pushing the changes, create a pull request to merge your changes.
 
