@@ -599,6 +599,18 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mb-40{
+  margin-bottom: 10rem;
+}
+
 .block{
   display: block;
 }
@@ -822,7 +834,7 @@ p {
 
 .event-card{
   display: flex;
-  min-width: 24rem;
+  min-width: 100%;
   flex-direction: column;
   gap: 1.25rem;
   border-radius: 0.5rem;
