@@ -16,7 +16,7 @@ p {
 }
 
 .event-card {
-	@apply rounded-lg p-3 bg-primary gap-5 flex flex-col shadow-lg shadow-accent md:min-w-[40rem] md:max-w-[40rem] min-w-[100%] lg:min-h-[20rem];
+	@apply rounded-lg p-3 bg-primary gap-5 flex flex-col shadow-lg shadow-accent md:min-w-[40rem] md:max-w-[40rem] min-w-[100%] md:min-h-[17rem] relative;
 }
 
 .bg-hero-to-section {
