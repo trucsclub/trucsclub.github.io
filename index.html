@@ -34,6 +34,7 @@
                     <a href="#events-section" class="px-8 py-2 hover:text-accent">Events</a>
                     <a href="#board-section" class="px-8 py-2 hover:text-accent">Board Meeting</a>
                     <a href="./coming-soon.html" class="px-8 py-2 hover:text-accent">Resources</a>
+                    <a href="#shop-section" class="px-8 py-2 hover:text-accent">Shop</a>
                </div>
 
                <!-- Hamburger Icon -->
@@ -53,6 +54,7 @@
                     <a href="#events-section" class="hover:text-accent">Events</a>
                     <a href="#board-section" class="hover:text-accent">Board Meeting</a>
                     <a href="./coming-soon.html" class="hover:text-accent">Resources</a>
+                    <a href="#shop-section" class="hover:text-accent">Shop</a>
                </div>
 
           </div>
@@ -170,63 +172,69 @@
                          type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
                </div>
 
-
           </a>
      </section>
 
      <!-- Events -->
      <section id="events-section" class="bg-section flex flex-col gap-12 items-center py-10 px-5">
+
           <!-- Title -->
-          <h2 class="text-text font-extrabold text-4xl">Upcoming Events</h2>
+          <h2 class="text-text font-extrabold text-5xl">Upcoming Events</h2>
 
-          <!-- Event Cards -->
+          <!-- Event Container -->
+          <div class="flex flex-wrap gap-12 items-start justify-center py-10 px-5">
 
-          <!-- EVENT #1 -->
-          <div class="event-card event-card-blur">
-               <h3 class="text-black font-bold text-lg">Server? Hardly know her!</h3>
-               <h4 class="text-black text-md">February 8th, 2024<br>6:00 PM - 8:00 PM<br>OM 1241</h4>
-               <p class="text-gray-700">Discover the art of server setup at our tech-centric event, where experts and
-                    enthusiasts converge to explore the latest technologies and best practices.</p>
+               <!-- EVENT #1 -->
+               <div class="event-card event-card-blur sm:w-1/2 md:w-auto mb-8 sm:mb-0">
+                    <h3 class="text-black font-bold text-lg">Server? Hardly know her!</h3>
+                    <h4 class="text-black text-md">February 8th, 2024<br>6:00 PM - 8:00 PM<br>OM 1241</h4>
+                    <p class="text-gray-700">Discover the art of server setup at our tech-centric event, where experts
+                         and
+                         enthusiasts converge to explore the latest technologies and best practices.</p>
+                    <br><br><br>
+                    <a href="https://simpli.events/e/server" target="_blank">
+                         <span class="font-bold hover:text-accent absolute bottom-3">view details</span>
+                    </a>
+               </div>
 
-               <a href="https://simpli.events/e/server" target="_blank">
-                    <span class="font-bold hover:text-accent">view details</span>
-               </a>
+               <!-- EVENT #2 -->
+               <div class="event-card event-card-blur sm:w-1/2 md:w-auto mb-8 sm:mb-0">
+                    <h3 class="text-black font-bold text-lg">Winter LAN Party</h3>
+                    <h4 class="text-black text-md">March 9th, 2024<br>2:00 PM - 11:59 PM<br>Location TBA</h4>
+                    <p class=" text-gray-700">Join us in our LAN party! Bring your setup and play some games!</p>
+                    <br><br><br>
+                    <a href="https://simpli.events/e/winterLAN" target="_blank">
+                         <span class="font-bold hover:text-accent absolute bottom-3">view details</span>
+                    </a>
+               </div>
+
+               <!-- EVENT #3 -->
+               <div class="event-card event-card-blur w-full md:w-auto">
+                    <h3 class="text-black font-bold text-lg">Can You Code?</h3>
+                    <h4 class="text-black text-md">April 5th, 2024<br>6:00 PM - 9:00 PM<br>Location TBA</h4>
+                    <p class="text-gray-700">Compete against your friends to find out who can
+                         code!</p>
+                    <br><br><br>
+                    <a href="https://simpli.events/e/wintercyc" target="_blank">
+                         <span class="font-bold hover:text-accent absolute bottom-3">view details</span>
+                    </a>
+               </div>
           </div>
 
-          <!-- EVENT #2 -->
-          <div class="event-card event-card-blur">
-               <h3 class="text-black font-bold text-lg">Winter LAN Party</h3>
-               <h4 class="text-black text-md">March 9th, 2024<br>2:00 PM - 11:59 PM<br>Location TBA</h4>
-               <p class=" text-gray-700">Join us in our LAN party! Bring your setup and play some games!</p>
-
-               <a href="https://simpli.events/e/winterLAN" target="_blank">
-                    <span class="font-bold hover:text-accent">view details</span>
-               </a>
-          </div>
-
-          <!-- EVENT #3 -->
-          <div class="event-card event-card-blur">
-               <h3 class="text-black font-bold text-lg">Can You Code?</h3>
-               <h4 class="text-black text-md">April 5th, 2024<br>6:00 PM - 9:00 PM<br>Location TBA</h4>
-               <p class="text-gray-700">Compete against your friends to find out who can
-                    code!</p>
-
-               <a href="https://simpli.events/e/wintercyc" target="_blank">
-                    <span class="font-bold hover:text-accent">view details</span>
-               </a>
-          </div>
 
      </section>
 
      <!-- Next Board Meeting -->
      <section id="board-section" class="bg-section flex flex-col gap-12 items-center py-10 px-5">
           <!-- Title -->
-          <h2 class="text-text font-extrabold text-4xl">Board Meeting</h2>
+          <h2 class="text-text font-extrabold text-5xl">Board Meeting</h2>
 
           <!-- Event Cards -->
           <div class="event-card event-card-blur">
                <h3 class="text-black font-bold text-lg">Join us for our next board meeting!</h3>
-               <h4 id="dateDisplay" class="text-black text-md">February 7th, 2024<br>1:00 PM PDT</h4> <!-- MANUALLY CHANGE -->
+
+               <!-- MANUALLY CHANGE -->
+               <h4 id="dateDisplay" class="text-black text-md">February 7th, 2024<br>1:00 PM PDT</h4>
 
                <!-- AUTOMATIC DATE UPDATE -->
                <!-- COMMENT THE FOLLOWING SCRIPT TO REMOVE THE AUTO UPDATE -->
@@ -261,17 +269,31 @@
                     setInterval(updateDate, 14 * 24 * 60 * 60 * 1000);
                </script>
 
-
-
-
-
-
                <p class="text-gray-700">Old Main Room 1365</p>
-
+               <br><br><br>
                <a href="https://discord.gg/UEGuccvBRy" target="_blank">
-                    <span class="font-bold hover:text-accent">view details</span>
+                    <span class="font-bold hover:text-accent absolute bottom-3">view details</span>
                </a>
           </div>
+
+     </section>
+
+     <!-- Merch Store -->
+     <section id="shop-section" class="bg-section flex flex-col gap-12 items-center py-10 px-5">
+
+          <!-- Title -->
+          <h2 class="text-text font-extrabold text-5xl">Shop</h2>
+
+          <!-- iFrame with Website -->
+          <div class="bg-white rounded-lg p-3 gap-5 shadow-lg shadow-accent w-[97%] lg:w-[80%] h-[1000px]">
+               <iframe src="https://my-store-f1a084.creator-spring.com/" frameborder="0" class="w-full h-full"></iframe>
+          </div>
+
+          <!-- Button Go to store -->
+          <a href="https://my-store-f1a084.creator-spring.com/" target="_blank">
+               <button id="shop-button" class="text-text py-2 px-10 rounded-full bg-accent hover:bg-secondary">Go to
+                    store</button>
+          </a>
 
      </section>
 
@@ -294,13 +316,14 @@
 
 <!-- Footer -->
 <footer class="bg-footer-to-section flex justify-between px-5 pb-2 pt-5 items-end">
+
      <!-- Email -->
-     <a href="mailto:trucsclub@gmail.com" class="text-text text-xs hover:text-accent">
+     <a href="mailto:trucsclub@gmail.com" class="text-text text-md hover:text-accent">
           trucsclub@gmail.com
      </a>
 
      <!-- Copyright -->
-     <p class="text-gray-700 text-xs">&copy; by trucsclub</p>
+     <p class="text-gray-700 text-md">&copy; by trucsclub</p>
 
      <!-- Socials -->
      <div class="flex gap-2">
