@@ -30,11 +30,11 @@
                <div class="md:text-text text-2xl hidden lg:flex space-x-16 py-1 px-6 ali items-center">
                     <a href="" class=""><img src="assets/logo.svg" alt="logo"></a>
 
-                    <a href="#hero-section" class="px-8 py-2 hover:text-accent">Get Involved</a>
-                    <a href="#events-section" class="px-8 py-2 hover:text-accent">Events</a>
-                    <a href="#board-section" class="px-8 py-2 hover:text-accent">Board Meeting</a>
+                    <a href="#hero-section" class="px-8 py-2 hover:text-accent" onclick="scrollToSection('hero-section'); return false;">Get Involved</a>
+                    <a href="#events-section" class="px-8 py-2 hover:text-accent" onclick="scrollToSection('events-section'); return false;">Events</a>
+                    <a href="#board-section" class="px-8 py-2 hover:text-accent" onclick="scrollToSection('board-section'); return false;">Board Meeting</a>
                     <a href="./coming-soon.html" class="px-8 py-2 hover:text-accent">Members</a>
-                    <a href="#merch-section" class="px-8 py-2 hover:text-accent">Merch</a>
+                    <a href="#merch-section" class="px-8 py-2 hover:text-accent" onclick="scrollToSection('merch-section'); return false;">Merch</a>
                </div>
 
                <!-- Hamburger Icon -->
@@ -50,11 +50,11 @@
                <div id="menu"
                     class="absolute flex-col items-center hidden self-end py-8 space-y-6 font-bold bg-white-glass sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
 
-                    <a href="#hero-section" class="hover:text-accent">Get Involved</a>
-                    <a href="#events-section" class="hover:text-accent">Events</a>
-                    <a href="#board-section" class="hover:text-accent">Board Meeting</a>
+                    <a href="#hero-section" class="hover:text-accent" onclick="scrollToSection('hero-section'); return false;">Get Involved </a>
+                    <a href="#events-section" class="hover:text-accent" onclick="scrollToSection('events-section'); return false;">Events</a>
+                    <a href="#board-section" class="hover:text-accent" onclick="scrollToSection('board-section'); return false;">Board Meeting</a>
                     <a href="./coming-soon.html" class="hover:text-accent">Members</a>
-                    <a href="#merch-section" class="hover:text-accent">Merch</a>
+                    <a href="#merch-section" class="hover:text-accent" onclick="scrollToSection('merch-section'); return false;">Merch</a>
                </div>
 
           </div>
@@ -277,6 +277,16 @@
           </a>
 
      </section>
+
+     <!-- Smooth Scroll Scrip -->
+     <script>
+          function scrollToSection(sectionId) {
+              const section = document.getElementById(sectionId);
+              if (section) {
+                  section.scrollIntoView({ behavior: 'smooth' });
+              }
+          }
+      </script>
 
      <!-- Hamburger Script -->
      <script src="assets/hamburger.js"></script>
