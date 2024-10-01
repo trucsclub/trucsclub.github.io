@@ -15,6 +15,10 @@ p {
 	text-wrap: wrap;
 }
 
+.tab2 {
+	tab-size: 4 !important;
+}
+
 .event-card {
 	@apply rounded-lg p-3 bg-primary gap-5 flex flex-col shadow-lg shadow-accent md:min-w-[40rem] md:max-w-[40rem] min-w-[100%] md:min-h-[17rem] relative;
 }

@@ -887,6 +887,12 @@ p {
   text-wrap: wrap;
 }
 
+.tab2 {
+  -moz-tab-size: 4 !important;
+    -o-tab-size: 4 !important;
+       tab-size: 4 !important;
+}
+
 .event-card{
   position: relative;
   display: flex;
